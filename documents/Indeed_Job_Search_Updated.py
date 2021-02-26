@@ -71,7 +71,7 @@ for i in range(0,50,10):
         job_list.append(jobs)
 
 df = pd.DataFrame(job_list)
-df.to_csv('jobs2.csv', index = False, header = True)
+df.to_csv('jobs.csv', index = False, header = True)
 
 time.sleep(10)
 driver.quit()
